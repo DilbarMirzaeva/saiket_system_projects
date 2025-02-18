@@ -4,8 +4,9 @@ package calculator;
 import static calculator.util.getInput;
 
 
-public class CalculatorApp {
-    public static void main(String[] args) {
+public class Calculator {
+
+    public static void enterCalc() {
         System.out.println("\t\t\t--Calculator---");
         while (true) {
             Integer choosen = getInput("""
@@ -30,7 +31,7 @@ public class CalculatorApp {
 
     public static double calculate() {
         while (true) {
-            char c = choose();
+            char c = chooseOperation();
             System.out.println("---------------");
             double a = getInput("First value:", Double.class);
             System.out.println("Operation:" + c);
@@ -54,7 +55,7 @@ public class CalculatorApp {
         }
     }
 
-    public static char choose() {
+    public static char chooseOperation() {
         String ch = getInput("""
                 Please choose the operation : '+ , '-', '*' , '/');
                 """, String.class);
