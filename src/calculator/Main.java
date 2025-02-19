@@ -1,3 +1,5 @@
+package calculator;
+
 import static calculator.Calculator.enterCalc;
 
 public class Main {
