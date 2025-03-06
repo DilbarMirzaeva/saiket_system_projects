@@ -4,9 +4,9 @@ public class Task {
     private String title;
     private boolean status;
 
-    public Task(String title, boolean status) {
+    public Task(String title) {
         this.title = title;
-        this.status = status;
+        this.status = false;
     }
 
     public String getTitle() {
@@ -25,7 +25,12 @@ public class Task {
         this.status = status;
     }
 
-    public void markComplete(){
+    public void markComplete() {
+        status = true;
+    }
 
+    @Override
+    public String toString() {
+        return (status? "[✔]. ":"[ ]. ")+title;
     }
 }
