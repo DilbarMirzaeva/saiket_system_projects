@@ -10,8 +10,8 @@ public class Operation {
     static List<User> users = new ArrayList<>();
 
     public static void bankSystem() {
-        System.out.println("\t\t\t------Bank------");
-        System.out.println("\n\nWelcome our Bank Account System");
+        System.out.println("\n\t\t\t------Bank------");
+        System.out.println("Welcome our Bank Account System");
         while (true) {
             Integer input = getInput("""
                     1.Create Bank Account
