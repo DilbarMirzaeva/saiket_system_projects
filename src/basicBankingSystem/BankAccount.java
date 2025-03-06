@@ -1,10 +1,9 @@
 package basicBankingSystem;
 
-import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-import static calculator.util.getInput;
+import static util.util.getInput;
 
 public class BankAccount {
     private static int Id=1;

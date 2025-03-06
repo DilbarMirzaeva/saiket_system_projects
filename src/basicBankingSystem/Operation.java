@@ -3,7 +3,7 @@ package basicBankingSystem;
 import java.util.ArrayList;
 import java.util.List;
 
-import static calculator.util.getInput;
+import static util.util.getInput;
 
 public class Operation {
     static List<BankAccount> bankAccounts = new ArrayList<>();
