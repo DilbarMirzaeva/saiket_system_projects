@@ -1,6 +1,6 @@
 package temperatureConverter;
 
-import static calculator.util.getInput;
+import static util.util.getInput;
 
 public class Converter {
 
