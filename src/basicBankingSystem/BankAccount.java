@@ -81,7 +81,7 @@ public class BankAccount {
                 }
                 } catch (RuntimeException e) {
                     System.out.println(e.getMessage());
-                    withdrawAmount = getInput("Try again: ", Double.class);
+                    return;
                 }
             }
         }
