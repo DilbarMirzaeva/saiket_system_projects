@@ -1,6 +1,5 @@
 package basicBankingSystem;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 public class Transaction {
@@ -23,12 +22,6 @@ public class Transaction {
         this.transactionType = transactionType;
         this.bankAccount = bankAccount;
         transactionDateTime=LocalDateTime.now();
-    }
-
-    public void type(){
-        if(transactionType.equalsIgnoreCase("deposit")){
-
-        }
     }
 
     public int getTransactionId() {
