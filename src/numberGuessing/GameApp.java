@@ -1,6 +1,6 @@
 package numberGuessing;
 
-import static calculator.util.getInput;
+import static util.util.getInput;
 
 public class GameApp {
     public static void main(String[] args) {
